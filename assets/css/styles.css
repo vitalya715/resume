@@ -1,0 +1,105 @@
+.container {
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* Левая сторана */
+
+#sumbarLeftImg {
+  padding: 15px;
+}
+
+#blockImg {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /*padding: 15px;*/
+  background-color: #05bbc2;
+  border-radius: 25px;
+}
+
+#img {
+  height: 175px;
+  border-radius: 25px;
+}
+
+#contacts {
+  color: #7c8587;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+#titelContacts {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: serif;
+  padding-bottom: 10px;
+  border-bottom: 5px solid;
+}
+
+#link {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px;
+  color: #05bbc2;
+  opacity: 0.7;
+}
+
+#link {
+  opacity: 1;
+}
+
+#blockContacts {
+  margin-top: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  background-color: #fff;
+  margin: 0 16px;
+}
+
+#link {
+}
+
+/* Правая сторона */
+
+#sumbarRightName {
+  padding: 15px;
+}
+
+@media (max-width: 570px) {
+  #titelName {
+    line-height: 80px;
+  }
+}
+
+@media (min-width: 840px) {
+  #titelName {
+    line-height: 80px;
+  }
+}
+
+#sumbarRight {
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.19);
+}
+
+#titel {
+  background-color: rgba(0,0,0,0.19);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  color: #fff;
+  height: 175px;
+}
+
+#skils {
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
