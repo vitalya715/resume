@@ -80,12 +80,16 @@
   #titelName {
     height: auto;
   }
+  #titel{
+  height: auto;
+  }
 }
 
 @media (min-width: 840px) {
   #titelName {
     line-height: 80px;
   }
+  
 }
 
 #sumbarRight {
