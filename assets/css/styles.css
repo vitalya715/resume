@@ -78,7 +78,7 @@
 
 @media (max-width: 570px) {
   #titelName {
-    line-height: 80px;
+    height: auto;
   }
 }
 
