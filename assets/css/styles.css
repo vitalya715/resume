@@ -76,21 +76,9 @@
   padding: 15px;
 }
 
-@media (max-width: 570px) {
-  #titelName {
-    height: auto;
-  }
-  #titel{
-  height: auto;
-  }
-}
 
-@media (min-width: 840px) {
-  #titelName {
-    line-height: 80px;
-  }
-  
-}
+
+
 
 #sumbarRight {
   border-radius: 15px;
@@ -106,6 +94,20 @@
   color: #fff;
   height: 175px;
   border-radius: 15px;
+}
+@media (max-width: 570px) {
+  #titelName {
+    height: auto;
+  }
+  #titel{
+  height: auto;
+  }
+}
+@media (min-width: 840px) {
+  #titelName {
+    line-height: 80px;
+  }
+  
 }
 
 #skils {
